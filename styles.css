@@ -232,6 +232,7 @@ main {
     width: 60px;
     padding: 10px 5px;
     align-items: center;
+    height: auto;
   }
 
   .logo span {
