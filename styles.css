@@ -275,4 +275,12 @@ main {
   #layout {
     flex-direction: row;
   }
+  .todo-container {
+  background-color: white;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
 }
