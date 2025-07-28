@@ -228,6 +228,9 @@ main {
 
 /* Responsive: Mobile View */
 @media (max-width: 768px) {
+  body{
+    overflow-y: scroll;
+  }
   #sidebar {
     width: 60px;
     padding: 10px 5px;
