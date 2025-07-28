@@ -38,6 +38,7 @@ body {
 }
 
 .logo {
+  /* background-color: greenyellow; */
   display: flex;
   align-items: center;
   gap: 10px;
@@ -45,9 +46,13 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
 }
-
+.logo i {
+  color: greenyellow;
+  /* background-color: greenyellow; */
+}
 .logo span {
   display: inline;
+  /* background-color: greenyellow; */
 }
 
 .nav-links {
@@ -221,6 +226,12 @@ main {
     padding: 10px 5px;
     align-items: center;
   }
+.topbar{
+  width: auto;
+}
+.topbar h2 {
+  font-size: small;
+}
 
   .logo span {
     display: none;
