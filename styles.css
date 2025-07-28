@@ -327,14 +327,14 @@ main {
     width: 100%;
   }
   .todo-container {
-  width: 85%;
-  max-width: 400px;
+  width: 90%;
+  max-width: 360px;
   margin: 1rem auto;
-  padding: 0.8rem;
+  padding: 1rem;
   font-size: 0.85rem;
+  border-radius: 8px;
   overflow-y: auto;
   box-sizing: border-box;
-  border-radius: 8px;
 }
 
 .todo-container h3 {
@@ -345,8 +345,7 @@ main {
 
 .todo-input {
   display: flex;
-  flex-direction: row;
-  gap: 5px;
+  gap: 4px;
   margin-bottom: 1rem;
 }
 
@@ -355,7 +354,7 @@ main {
   padding: 6px 8px;
   font-size: 0.8rem;
   border: 1px solid #cbd5e1;
-  border-radius: 5px;
+  border-radius: 4px;
   outline: none;
 }
 
@@ -365,42 +364,37 @@ main {
   background-color: #3b82f6;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
-}
-
-#tasklist {
-  padding: 0;
 }
 
 #tasklist li {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 6px;
   padding: 6px 0;
   border-bottom: 1px solid #e5e7eb;
   font-size: 0.8rem;
+  gap: 6px;
+}
+
+#tasklist li input[type="checkbox"] {
+  transform: scale(0.85);
+  margin-right: 6px;
 }
 
 #tasklist li span {
-  flex: 1 1 60%;
+  flex: 1;
   word-break: break-word;
   white-space: normal;
-  margin-left: 5px;
+  margin-left: 0;
 }
 
 #tasklist li .actions {
   display: flex;
   gap: 6px;
-  flex: 1 1 35%;
   justify-content: flex-end;
-}
-
-#tasklist input[type="checkbox"] {
-  transform: scale(0.85);
-  margin-top: 2px;
 }
 
 }
