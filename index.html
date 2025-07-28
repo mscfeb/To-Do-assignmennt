@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/83b89418f0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="layout">
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div id="first">
+          <div class="logo">
+            <i class="fa fa-check-square"></i>
+            <span>LOGO</span>
+          </div>
+          <ul class="nav-links" id="desk">
+            <li> Dashboard</li>
+            <li>Boards</li>
+            <li>History</li>
+          </ul>
+          <ul class="nav-links" id="mobile">
+            <li> D</li>
+            <li>B</li>
+            <li>H</li>
+          </ul>
+        </div>
+        <div class="profile">
+          <img src="./blank-profile-picture-973460_960_720.webp" alt="User" />
+          <div>
+            <p>Md Saad</p>
+            <small>Developer</small>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main>
+        <header class="topbar">
+          <h2>To-Do App</h2>
+          <div class="icons">
+            <i class="fas fa-headset"></i>
+            <p>Support</p>
+            <i class="fas fa-cog"></i>
+            <p>Settings</p>
+            <i class="fas fa-bell"></i>
+          </div>
+        </header>
+
+        <section class="todo-container">
+          <h3>To-do Application</h3>
+          <div class="todo-input">
+            <input type="text" id="taskinput" placeholder="Enter a new to-do" />
+            <button id="addTask">Add</button>
+          </div>
+          <ul id="tasklist"></ul>
+        </section>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
